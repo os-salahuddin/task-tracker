@@ -17,7 +17,7 @@ A simple Django web application for managing and organizing your tasks.
 ## Getting Started
 
 1. Clone the repository:
-   git clone https://github.com/your-username/django-todo-app.git
+   git clone https://github.com/os-salahuddin/django-todo-app.git
    
 3. Navigate to the project directory:
     cd django-todo-app
