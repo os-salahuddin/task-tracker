@@ -3,7 +3,11 @@
 <body>
 
 <h1>Hello World!</h1>
-<p>Welcome to my first Django project!</p>
-
+<p>Welcome to Todo Django project!</p>
+<ul>
+    {% for x in tasks %}
+    <li>{{ x.title }} {{ x.status }}</li>
+    {% endfor %}
+</ul>
 </body>
 </html>
